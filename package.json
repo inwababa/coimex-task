@@ -1,0 +1,27 @@
+{
+  "name": "trading",
+  "version": "1.0.0",
+  "description": "technical task",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inwababa/trading.git"
+  },
+  "author": "Hammed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inwababa/trading/issues"
+  },
+  "homepage": "https://github.com/inwababa/trading#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
+    "nodemon": "^3.0.1"
+  }
+}
